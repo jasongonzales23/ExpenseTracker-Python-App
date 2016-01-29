@@ -5,6 +5,7 @@
 from flask import Flask, jsonify, request
 import os
 import MySQLdb as mysql
+import _mysql
 
 app = Flask(__name__)
 _INSTANCE_NAME = 'expensetracker-1199:expensetracker-1200'
